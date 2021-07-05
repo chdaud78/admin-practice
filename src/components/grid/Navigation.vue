@@ -153,23 +153,23 @@
                 </a>
                 <ul class="c-sidebar-nav-dropdown-items">
                     <li class="c-sidebar-nav-item">
-                        <a class="c-sidebar-nav-link" href="">Basic Forms</a>
+                        <a class="c-sidebar-nav-link" href="#">Basic Forms</a>
                     </li>
                     <li class="c-sidebar-nav-item">
-                        <a class="c-sidebar-nav-link" href="">
+                        <a class="c-sidebar-nav-link" href="#">
                             Multi Select
                             <span class="badge badge-danger">PRO</span>
                             <span class="badge badge-success">NEW</span>
                         </a>
                     </li>
                     <li class="c-sidebar-nav-item">
-                        <a class="c-sidebar-nav-link" href="">
+                        <a class="c-sidebar-nav-link" href="#">
                             Advanced
                             <span class="badge badge-danger">PRO</span>
                         </a>
                     </li>
                     <li class="c-sidebar-nav-item">
-                        <a class="c-sidebar-nav-link" href="">
+                        <a class="c-sidebar-nav-link" href="#">
                             Validation
                             <span class="badge badge-danger">PRO</span>
                         </a>
@@ -190,18 +190,18 @@
                 </a>
                 <ul class="c-sidebar-nav-dropdown-items">
                     <li class="c-sidebar-nav-item">
-                        <a class="c-sidebar-nav-link" href="">
+                        <a class="c-sidebar-nav-link" href="#">
                             CoreUI Icons
                             <span class="badge badge-success">NEW</span>
                         </a>
                     </li>
                     <li class="c-sidebar-nav-item">
-                        <a class="c-sidebar-nav-link" href="">
+                        <a class="c-sidebar-nav-link" href="#">
                             CoreUI Icons - Brand
                         </a>
                     </li>
                     <li class="c-sidebar-nav-item">
-                        <a class="c-sidebar-nav-link" href="">
+                        <a class="c-sidebar-nav-link" href="#">
                             CoreUI Icons - Flag
                         </a>
                     </li>
@@ -214,16 +214,16 @@
                 </a>
                 <ul class="c-sidebar-nav-dropdown-items">
                     <li class="c-sidebar-nav-item">
-                        <a class="c-sidebar-nav-link" href="">Alerts</a>
+                        <a class="c-sidebar-nav-link" href="#">Alerts</a>
                     </li>
                     <li class="c-sidebar-nav-item">
-                        <a class="c-sidebar-nav-link" href="">Badge</a>
+                        <a class="c-sidebar-nav-link" href="#">Badge</a>
                     </li>
                     <li class="c-sidebar-nav-item">
-                        <a class="c-sidebar-nav-link" href="">Modals</a>
+                        <a class="c-sidebar-nav-link" href="#">Modals</a>
                     </li>
                     <li class="c-sidebar-nav-item">
-                        <a class="c-sidebar-nav-link" href="">
+                        <a class="c-sidebar-nav-link" href="#">
                             Toastr
                             <span class="badge badge-danger">PRO</span>
                         </a>
@@ -237,28 +237,28 @@
                 </a>
                 <ul class="c-sidebar-nav-dropdown-items">
                     <li class="c-sidebar-nav-item">
-                        <a class="c-sidebar-nav-link" href="">
+                        <a class="c-sidebar-nav-link" href="#">
                             <i class="c-sidebar-nav-icon cil-calendar"></i>
                             Calendar
                             <span class="badge badge-danger">PRO</span>
                         </a>
                     </li>
                     <li class="c-sidebar-nav-item">
-                        <a class="c-sidebar-nav-link" href="">
+                        <a class="c-sidebar-nav-link" href="#">
                             <i class="c-sidebar-nav-icon cil-move"></i>
                             Draggable
                             <span class="badge badge-danger">PRO</span>
                         </a>
                     </li>
                     <li class="c-sidebar-nav-item">
-                        <a class="c-sidebar-nav-link" href="">
+                        <a class="c-sidebar-nav-link" href="#">
                             <i class="c-sidebar-nav-icon cil-move"></i>
                             Ladda Button
                             <span class="badge badge-danger">PRO</span>
                         </a>
                     </li>
                     <li class="c-sidebar-nav-item">
-                        <a class="c-sidebar-nav-link" href="">
+                        <a class="c-sidebar-nav-link" href="#">
                             <i class="c-sidebar-nav-icon cil-loop-circular"></i>
                             Spinners
                             <span class="badge badge-danger">PRO</span>
@@ -273,10 +273,10 @@
                 </a>
                 <ul class="c-sidebar-nav-dropdown-items">
                     <li class="c-sidebar-nav-item">
-                        <a class="c-sidebar-nav-link" href="">Standard Tables</a>
+                        <a class="c-sidebar-nav-link" href="#">Standard Tables</a>
                     </li>
                     <li class="c-sidebar-nav-item">
-                        <a class="c-sidebar-nav-link" href="">
+                        <a class="c-sidebar-nav-link" href="#">
                             DataTables
                             <span class="badge badge-danger">PRO</span>
                         </a>
@@ -295,17 +295,85 @@
             <li class="c-sidebar-nav-title">
                 EXTRAS
             </li>
-            <li class="c-sidebar-nav-item">
-                <a class="c-sidebar-nav-link" href="#">
+            <li class="c-sidebar-nav-dropdown">
+                <a class="c-sidebar-nav-dropdown-toggle" href="#">
                     <i class="c-sidebar-nav-icon cil-star"></i>
                     Pages
                 </a>
+                <ul class="c-sidebar-nav-dropdown-items">
+                    <li class="c-sidebar-nav-item">
+                        <a class="c-sidebar-nav-link" href="#">
+                            <i class="c-sidebar-nav-icon cil-account-logout"></i>
+                            Login
+                        </a>
+                    </li>
+                    <li class="c-sidebar-nav-item">
+                        <a class="c-sidebar-nav-link" href="#">
+                            <i class="c-sidebar-nav-icon cil-account-logout"></i>
+                            Register
+                        </a>
+                    </li>
+                    <li class="c-sidebar-nav-item">
+                        <a class="c-sidebar-nav-link" href="#">
+                            <i class="c-sidebar-nav-icon cil-bug"></i>
+                            Error 404
+                        </a>
+                    </li>
+                    <li class="c-sidebar-nav-item">
+                        <a class="c-sidebar-nav-link" href="#">
+                            <i class="c-sidebar-nav-icon cil-bug"></i>
+                            Error 500
+                        </a>
+                    </li>
+                </ul>
             </li>
-            <li class="c-sidebar-nav-item">
-                <a class="c-sidebar-nav-link" href="#">
+            <li class="c-sidebar-nav-dropdown">
+                <a class="c-sidebar-nav-dropdown-toggle" href="#">
                     <i class="c-sidebar-nav-icon cil-layers"></i>
                     Apps
                 </a>
+                <ul class="c-sidebar-nav-dropdown-items">
+                    <li class="c-sidebar-nav-dropdown">
+                        <a class="c-sidebar-nav-dropdown-toggle" href="#">
+                            <i class="c-sidebar-nav-icon cil-description"></i>
+                            Invoicing
+                        </a>
+                        <ul class="c-sidebar-nav-dropdown-items">
+                            <li class="c-sidebar-nav-item">
+                                <a class="c-sidebar-nav-link" href="#">
+                                    Invoice
+                                    <span class="badge badge-danger">PRO</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="c-sidebar-nav-dropdown">
+                        <a class="c-sidebar-nav-dropdown-toggle" href="#">
+                            <i class="c-sidebar-nav-icon cil-envelope-open"></i>
+                            Email
+                        </a>
+                        <ul class="c-sidebar-nav-dropdown-items">
+                            <li class="c-sidebar-nav-item">
+                                <a class="c-sidebar-nav-link" href="#">
+                                    Inbox
+                                    <span class="badge badge-danger">PRO</span>
+                                </a>
+                            </li>
+                            <li class="c-sidebar-nav-item">
+                                <a class="c-sidebar-nav-link" href="#">
+                                    Message
+                                    <span class="badge badge-danger">PRO</span>
+                                </a>
+                            </li>
+                            <li class="c-sidebar-nav-item">
+                                <a class="c-sidebar-nav-link" href="#">
+                                    Compose
+                                    <span class="badge badge-danger">PRO</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
             </li>
 
             <!-- LABELS -->

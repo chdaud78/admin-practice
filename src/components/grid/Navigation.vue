@@ -433,12 +433,9 @@
                          aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
                 <small class="text-muted">243GB/256GB</small>
-
             </li>
-
         </ul>
         <button class="c-sidebar-minimizer c-brand-minimizer" type="button"></button>
-
     </aside>
 </template>
 

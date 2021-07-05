@@ -1,30 +1,29 @@
 <template>
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </div>
-  <router-view />
+    <div class="c-app">
+        <admin-navigation></admin-navigation>
+        <div class="c-wrapper">
+            <admin-header></admin-header>
+            <div class="c-body">
+                <div class="main"></div>
+            </div>
+        </div>
+    </div>
 </template>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
+<script>
+import AdminHeader from "./components/grid/Header.vue";
+import AdminNavigation from "./components/grid/Navigation.vue";
 
-#nav {
-  padding: 30px;
-}
+export default {
+    name: 'Admin',
+    components: {
+        AdminHeader,
+        AdminNavigation,
+    },
+};
+</script>
 
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-#nav a.router-link-exact-active {
-  color: #42b983;
-}
+<style lang="scss">
+@import "~@coreui/coreui/scss/coreui";
+@import '~@coreui/icons/css/free.min.css';
 </style>

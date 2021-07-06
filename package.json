@@ -10,7 +10,9 @@
   "dependencies": {
     "@coreui/coreui": "^3.4.0",
     "@coreui/icons": "^2.0.1",
+    "@j-t-mcc/vue3-chartjs": "^1.1.2",
     "@popperjs/core": "^2.9.2",
+    "chart.js": "^3.4.1",
     "core-js": "^3.6.5",
     "perfect-scrollbar": "^1.5.1",
     "vue": "^3.0.0",

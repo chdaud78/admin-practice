@@ -1,5 +1,5 @@
 <template>
-    <aside class="c-sidebar c-sidebar-dark c-sidebar-show">
+    <aside class="c-sidebar c-sidebar-dark c-sidebar-fixed c-sidebar-lg-show" id="sidebar">
         <div class="c-sidebar-brand">
             Admin
         </div>
@@ -403,7 +403,7 @@
             <li class="c-sidebar-nav-title">
                 SYSTEM UTILIZATION
             </li>
-            <li class="c-sidebar-nav-item px-3">
+            <li class="c-sidebar-nav-item px-3 c-d-minimized-none">
                 <div class="text-uppercase mb-1">
                     <small><b>CPU USAGE</b></small>
                 </div>
@@ -413,7 +413,7 @@
                 </div>
                 <small class="text-muted">348 Processes. 1/4 Cores</small>
             </li>
-            <li class="c-sidebar-nav-item px-3">
+            <li class="c-sidebar-nav-item px-3 c-d-minimized-none">
                 <div class="text-uppercase mb-1">
                     <small><b>MEMORY USAGE</b></small>
                 </div>
@@ -424,7 +424,7 @@
                 <small class="text-muted">11444GB/16384MB</small>
 
             </li>
-            <li class="c-sidebar-nav-item px-3 mb-3">
+            <li class="c-sidebar-nav-item px-3 mb-3 c-d-minimized-none">
                 <div class="text-uppercase mb-1">
                     <small><b>SSD 1 USAGE</b></small>
                 </div>
@@ -435,7 +435,7 @@
                 <small class="text-muted">243GB/256GB</small>
             </li>
         </ul>
-        <button class="c-sidebar-minimizer c-brand-minimizer" type="button"></button>
+        <button class="c-sidebar-minimizer c-class-toggler" type="button" data-target="_parent" data-class="c-sidebar-minimized"></button>
     </aside>
 </template>
 

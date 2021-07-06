@@ -1,6 +1,6 @@
 <template>
     <header class="c-header c-header-light px-3">
-        <button class="c-header-toggler mt-2" type="button">
+        <button class="c-header-toggler c-class-toggler mt-2" type="button" data-target="#sidebar" data-class="c-sidebar-show">
             <i class="c-icon c-icon-lg cil-menu"></i>
         </button>
         <!-- Header left -->
@@ -185,7 +185,7 @@
                     <span class="dropdown-header bg-light"><strong>You have 4 messages</strong></span>
                     <a href="#" class="dropdown-item overflow-hidden">
                         <div class="c-avatar float-left mr-2">
-                            <img class="c-avatar-img" src="/images/bee_sad.png" alt="">
+                            <img class="c-avatar-img border-light" src="/images/bee_sad.png" alt="">
                             <span class="c-avatar-status bg-success"></span>
                         </div>
                         <div class="message float-left">
@@ -202,7 +202,7 @@
                     </a>
                     <a href="#" class="dropdown-item overflow-hidden">
                         <div class="c-avatar float-left mr-2">
-                            <img class="c-avatar-img" src="/images/bee_sad.png" alt="">
+                            <img class="c-avatar-img border-light" src="/images/bee_sad.png" alt="">
                             <span class="c-avatar-status bg-warning"></span>
                         </div>
                         <div class="message float-left">
@@ -218,7 +218,7 @@
                     </a>
                     <a href="#" class="dropdown-item overflow-hidden">
                         <div class="c-avatar float-left mr-2">
-                            <img class="c-avatar-img" src="/images/bee_sad.png" alt="">
+                            <img class="c-avatar-img border-light" src="/images/bee_sad.png" alt="">
                             <span class="c-avatar-status bg-warning"></span>
                         </div>
                         <div class="message float-left">
@@ -234,7 +234,7 @@
                     </a>
                     <a href="#" class="dropdown-item overflow-hidden">
                         <div class="c-avatar float-left mr-2">
-                            <img class="c-avatar-img" src="/images/bee_sad.png" alt="">
+                            <img class="c-avatar-img border-light" src="/images/bee_sad.png" alt="">
                             <span class="c-avatar-status bg-success"></span>
                         </div>
                         <div class="message float-left">

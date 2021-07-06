@@ -4,7 +4,11 @@
         <div class="c-wrapper">
             <admin-header></admin-header>
             <div class="c-body">
-                <div class="main"></div>
+                <div class="c-main">
+                    <div class="container-fluid">
+                    <router-view></router-view>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

@@ -6,11 +6,11 @@
         <ul class="c-sidebar-nav">
             <!-- Dashboard -->
             <li class="c-sidebar-nav-item">
-                <a class="c-sidebar-nav-link" href="#">
+                <router-link to="/dashboard" class="c-sidebar-nav-link">
                     <i class="c-sidebar-nav-icon cil-speedometer"></i>
                     Dashboard
                     <span class="badge badge-info">New</span>
-                </a>
+                </router-link>
             </li>
 
             <!-- Theme -->

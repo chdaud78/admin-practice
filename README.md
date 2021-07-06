@@ -1,5 +1,8 @@
 # admin-practice
 
+## Site
+https://chdaud78.github.io/admin-practice/
+
 ## Project setup
 ```
 npm install

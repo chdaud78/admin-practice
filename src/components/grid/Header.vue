@@ -4,7 +4,7 @@
             <i class="c-icon c-icon-lg cil-menu"></i>
         </button>
         <!-- Header left -->
-        <ul class="c-header-nav">
+        <ul class="c-header-nav d-md-down-none">
             <li class="c-header-nav-item active px-3">
                 <a class="c-header-nav-link" href="#">Dashboard <span class="sr-only">(current)</span></a>
             </li>

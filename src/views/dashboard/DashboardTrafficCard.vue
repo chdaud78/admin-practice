@@ -93,7 +93,6 @@ export default {
             data: {
                 labels: ["M", "T", "W", "T", "F", "S", "S", "M", "T", "W", "T", "F", "S", "S", "M", "T", "W", "T", "F", "S", "S"],
                 datasets: [
-
                     {
                         label: "My First dataset",
                         data: [95, 100, 80, 100, 96, 98, 82, 72, 92, 86, 93, 88, 95, 70, 96, 77, 96, 100, 80, 85, 70, 65],

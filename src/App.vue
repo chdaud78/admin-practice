@@ -31,4 +31,5 @@ export default {
 @import "~@coreui/coreui/scss/coreui";
 @import '~@coreui/icons/css/free.min.css';
 @import '~@coreui/icons/css/brand.min.css';
+@import '~@coreui/icons/css/flag.min.css';
 </style>

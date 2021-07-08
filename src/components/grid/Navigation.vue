@@ -41,7 +41,7 @@
                 </a>
                 <ul class="c-sidebar-nav-dropdown-items">
                     <li class="c-sidebar-nav-item">
-                        <a class="c-sidebar-nav-link" href="#">Breadcrumb</a>
+                        <router-link to="/components/base/breadcrumb" class="c-sidebar-nav-link">Breadcrumb</router-link>
                     </li>
                     <li class="c-sidebar-nav-item">
                         <a class="c-sidebar-nav-link" href="#">Cards</a>

@@ -6,7 +6,7 @@
             <div class="c-body">
                 <div class="c-main">
                     <div class="container-fluid">
-                    <router-view></router-view>
+                        <router-view></router-view>
                     </div>
                 </div>
             </div>
@@ -30,4 +30,5 @@ export default {
 <style lang="scss">
 @import "~@coreui/coreui/scss/coreui";
 @import '~@coreui/icons/css/free.min.css';
+@import '~@coreui/icons/css/brand.min.css';
 </style>

@@ -1,8 +1,10 @@
 import { createRouter, createWebHashHistory } from "vue-router";
 import Dashboard from "@/router/dashboard/index"
+import Theme from "@/router/theme/index"
 
 const routes = [
     ...Dashboard,
+    ...Theme,
 ];
 
 const router = createRouter({

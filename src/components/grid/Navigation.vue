@@ -18,16 +18,16 @@
                 Theme
             </li>
             <li class="c-sidebar-nav-item">
-                <a class="c-sidebar-nav-link" href="#">
+                <router-link to="/theme/colors" class="c-sidebar-nav-link">
                     <i class="c-sidebar-nav-icon cil-drop"></i>
                     Colors
-                </a>
+                </router-link>
             </li>
             <li class="c-sidebar-nav-item">
-                <a class="c-sidebar-nav-link" href="#">
+                <router-link to="/theme/typography" class="c-sidebar-nav-link">
                     <i class="c-sidebar-nav-icon cil-pen"></i>
                     Typography
-                </a>
+                </router-link>
             </li>
 
             <!-- components -->

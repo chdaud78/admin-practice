@@ -1,4 +1,4 @@
-import Breadcrumb from "@/views/components/base/breadcrumb/breadcrumb.vue";
+import Breadcrumb from "@/views/components/base/breadcrumb/Breadcrumb.vue";
 
 const routes = [
     {

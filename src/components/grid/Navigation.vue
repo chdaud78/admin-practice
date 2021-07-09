@@ -47,7 +47,7 @@
                         <router-link to="/components/base/cards" class="c-sidebar-nav-link">Cards</router-link>
                     </li>
                     <li class="c-sidebar-nav-item">
-                        <a class="c-sidebar-nav-link" href="#">Carousel</a>
+                        <router-link to="/components/base/carousel" class="c-sidebar-nav-link">Carousel</router-link>
                     </li>
                     <li class="c-sidebar-nav-item">
                         <a class="c-sidebar-nav-link" href="#">Collapse</a>

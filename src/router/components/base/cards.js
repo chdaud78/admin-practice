@@ -1,4 +1,4 @@
-import Cards from "@/views/components/base/cards/cards.vue";
+import Cards from "@/views/components/base/cards/Cards.vue";
 
 const routes = [
     {

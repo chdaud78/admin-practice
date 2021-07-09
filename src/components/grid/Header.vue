@@ -185,7 +185,7 @@
                     <span class="dropdown-header bg-light"><strong>You have 4 messages</strong></span>
                     <a href="#" class="dropdown-item overflow-hidden">
                         <div class="c-avatar float-left mr-2">
-                            <img class="c-avatar-img border-light" src="/images/bee_sad.png" alt="">
+                            <img class="c-avatar-img border-light" src="/admin-practice/images/bee_sad.png" alt="">
                             <span class="c-avatar-status bg-success"></span>
                         </div>
                         <div class="message float-left">
@@ -202,7 +202,7 @@
                     </a>
                     <a href="#" class="dropdown-item overflow-hidden">
                         <div class="c-avatar float-left mr-2">
-                            <img class="c-avatar-img border-light" src="/images/bee_sad.png" alt="">
+                            <img class="c-avatar-img border-light" src="/admin-practice/images/bee_sad.png" alt="">
                             <span class="c-avatar-status bg-warning"></span>
                         </div>
                         <div class="message float-left">
@@ -218,7 +218,7 @@
                     </a>
                     <a href="#" class="dropdown-item overflow-hidden">
                         <div class="c-avatar float-left mr-2">
-                            <img class="c-avatar-img border-light" src="/images/bee_sad.png" alt="">
+                            <img class="c-avatar-img border-light" src="/admin-practice/images/bee_sad.png" alt="">
                             <span class="c-avatar-status bg-warning"></span>
                         </div>
                         <div class="message float-left">
@@ -234,7 +234,7 @@
                     </a>
                     <a href="#" class="dropdown-item overflow-hidden">
                         <div class="c-avatar float-left mr-2">
-                            <img class="c-avatar-img border-light" src="/images/bee_sad.png" alt="">
+                            <img class="c-avatar-img border-light" src="/admin-practice/images/bee_sad.png" alt="">
                             <span class="c-avatar-status bg-success"></span>
                         </div>
                         <div class="message float-left">
@@ -258,7 +258,7 @@
                 <a class="c-header-nav-link" data-toggle="dropdown" role="button" aria-haspopup="true"
                    aria-expanded="true" href="#">
                     <div class="c-avatar border-light">
-                        <img class="c-avatar-img" src="/images/bee_sad.png" alt="">
+                        <img class="c-avatar-img" src="/admin-practice/images/bee_sad.png" alt="">
                     </div>
                 </a>
                 <div class="dropdown-menu dropdown-menu-right dropdown-menu-lg pt-0">

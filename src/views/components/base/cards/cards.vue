@@ -74,7 +74,7 @@
             </div>
             <div class="card">
                 <div class="card-header text-center">
-                    <img src="/images/bee_sad.png" alt="" class="w-100">
+                    <img src="/admin-practice/images/bee_sad.png" alt="" class="w-100">
                 </div>
                 <div class="card-body">{{ content }}</div>
             </div>
@@ -88,7 +88,7 @@
             </div>
             <div class="card">
                 <div class="card-header text-center">
-                    <img src="/images/bee_sad.png" alt="" class="w-100">
+                    <img src="/admin-practice/images/bee_sad.png" alt="" class="w-100">
                 </div>
                 <div class="card-body">{{ content }}</div>
                 <div class="list-group list-group-flush">
@@ -128,7 +128,7 @@
             <div class="card">
                 <div class="row no-gutters">
                     <div class="col-md-4 border-right">
-                        <img src="/images/bee_sad.png" alt="" class="mt-4" style="width: 100%;">
+                        <img src="/admin-practice/images/bee_sad.png" alt="" class="mt-4" style="width: 100%;">
                     </div>
                     <div class="col-md-8">
                         <div class="card-body">

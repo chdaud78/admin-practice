@@ -236,7 +236,7 @@ export default {
             ],
             userStatuses: [
                 {
-                    images: "/images/bee_sad.png",
+                    images: "/admin-practice/images/bee_sad.png",
                     connect: "success",
                     name: "Yiorgos Avraamu",
                     status: "New",
@@ -249,7 +249,7 @@ export default {
                     activity: "10 sec ago",
                 },
                 {
-                    images: "/images/bee_sad.png",
+                    images: "/admin-practice/images/bee_sad.png",
                     connect: "danger",
                     name: "Avram Tarasios",
                     status: "Recuring",
@@ -262,7 +262,7 @@ export default {
                     activity: "5 minutes ago",
                 },
                 {
-                    images: "/images/bee_sad.png",
+                    images: "/admin-practice/images/bee_sad.png",
                     connect: "warning",
                     name: "Quintin Ed",
                     status: "New",
@@ -275,7 +275,7 @@ export default {
                     activity: "1hour ago",
                 },
                 {
-                    images: "/images/bee_sad.png",
+                    images: "/admin-practice/images/bee_sad.png",
                     connect: "",
                     name: "Eneas Kwadwo",
                     status: "New",
@@ -288,7 +288,7 @@ export default {
                     activity: "Last month",
                 },
                 {
-                    images: "/images/bee_sad.png",
+                    images: "/admin-practice/images/bee_sad.png",
                     connect: "success",
                     name: "Agapetus Tadeas",
                     status: "New",
@@ -301,7 +301,7 @@ export default {
                     activity: "Last week",
                 },
                 {
-                    images: "/images/bee_sad.png",
+                    images: "/admin-practice/images/bee_sad.png",
                     connect: "danger",
                     name: "Yiorgos Avraamu",
                     status: "New",

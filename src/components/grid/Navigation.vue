@@ -44,7 +44,7 @@
                         <router-link to="/components/base/breadcrumb" class="c-sidebar-nav-link">Breadcrumb</router-link>
                     </li>
                     <li class="c-sidebar-nav-item">
-                        <a class="c-sidebar-nav-link" href="#">Cards</a>
+                        <router-link to="/components/base/cards" class="c-sidebar-nav-link">Cards</router-link>
                     </li>
                     <li class="c-sidebar-nav-item">
                         <a class="c-sidebar-nav-link" href="#">Carousel</a>

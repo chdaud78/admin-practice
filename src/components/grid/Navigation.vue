@@ -50,7 +50,7 @@
                         <router-link to="/components/base/carousel" class="c-sidebar-nav-link">Carousel</router-link>
                     </li>
                     <li class="c-sidebar-nav-item">
-                        <a class="c-sidebar-nav-link" href="#">Collapse</a>
+                        <router-link to="/components/base/collapses"  class="c-sidebar-nav-link">Collapse</router-link>
                     </li>
                     <li class="c-sidebar-nav-item">
                         <a class="c-sidebar-nav-link" href="#">Jumbotron</a>

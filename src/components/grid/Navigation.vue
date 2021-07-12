@@ -62,25 +62,25 @@
                         <router-link to="/components/base/navs" class="c-sidebar-nav-link">Navs</router-link>
                     </li>
                     <li class="c-sidebar-nav-item">
-                        <a class="c-sidebar-nav-link" href="#">Pagination</a>
+                        <router-link to="/components/base/paginations" class="c-sidebar-nav-link">Paginations</router-link>
                     </li>
                     <li class="c-sidebar-nav-item">
-                        <a class="c-sidebar-nav-link" href="#">Popovers</a>
+                        <router-link to="/components/base/popovers" class="c-sidebar-nav-link" href="#">Popovers</router-link>
                     </li>
                     <li class="c-sidebar-nav-item">
-                        <a class="c-sidebar-nav-link" href="#">Progress</a>
+                        <router-link to="/components/base/progresses" class="c-sidebar-nav-link" href="#">Progress</router-link>
                     </li>
                     <li class="c-sidebar-nav-item">
-                        <a class="c-sidebar-nav-link" href="#">Scrollspy</a>
+                        <router-link to="/components/base/scrollspy" class="c-sidebar-nav-link" href="#">Scrollspy</router-link>
                     </li>
                     <li class="c-sidebar-nav-item">
-                        <a class="c-sidebar-nav-link" href="#">Switches</a>
+                        <router-link to="/components/base/switches" class="c-sidebar-nav-link" href="#">Switches</router-link>
                     </li>
                     <li class="c-sidebar-nav-item">
-                        <a class="c-sidebar-nav-link" href="#">Tabs</a>
+                        <router-link to="/components/base/tabs" class="c-sidebar-nav-link" href="#">Tabs</router-link>
                     </li>
                     <li class="c-sidebar-nav-item">
-                        <a class="c-sidebar-nav-link" href="#">Tooltips</a>
+                        <router-link to="/components/base/tooltips" class="c-sidebar-nav-link" href="#">Tooltips</router-link>
                     </li>
                 </ul>
             </li>

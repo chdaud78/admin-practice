@@ -5,6 +5,7 @@ import Collapses from "@/router/components/base/collapses.js";
 import Jumbotrons from "@/router/components/base/jumbotrons.js";
 import ListGroups from "@/router/components/base/list-groups.js";
 import Navs from "@/router/components/base/navs.js";
+import Paginations from "@/router/components/base/paginations.js";
 
 const routes = [
     ...Breadcrumb,
@@ -14,6 +15,7 @@ const routes = [
     ...Jumbotrons,
     ...ListGroups,
     ...Navs,
+    ...Paginations,
 ];
 
 export default routes;

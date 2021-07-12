@@ -6,6 +6,7 @@ import Jumbotrons from "@/router/components/base/jumbotrons.js";
 import ListGroups from "@/router/components/base/list-groups.js";
 import Navs from "@/router/components/base/navs.js";
 import Paginations from "@/router/components/base/paginations.js";
+import Progress from "@/router/components/base/progress.js";
 
 const routes = [
     ...Breadcrumb,
@@ -16,6 +17,7 @@ const routes = [
     ...ListGroups,
     ...Navs,
     ...Paginations,
+    ...Progress,
 ];
 
 export default routes;

@@ -65,10 +65,7 @@
                         <router-link to="/components/base/paginations" class="c-sidebar-nav-link">Paginations</router-link>
                     </li>
                     <li class="c-sidebar-nav-item">
-                        <router-link to="/components/base/popovers" class="c-sidebar-nav-link" href="#">Popovers</router-link>
-                    </li>
-                    <li class="c-sidebar-nav-item">
-                        <router-link to="/components/base/progresses" class="c-sidebar-nav-link" href="#">Progress</router-link>
+                        <router-link to="/components/base/progress" class="c-sidebar-nav-link" href="#">Progress</router-link>
                     </li>
                     <li class="c-sidebar-nav-item">
                         <router-link to="/components/base/scrollspy" class="c-sidebar-nav-link" href="#">Scrollspy</router-link>

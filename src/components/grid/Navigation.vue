@@ -53,7 +53,7 @@
                         <router-link to="/components/base/collapses"  class="c-sidebar-nav-link">Collapse</router-link>
                     </li>
                     <li class="c-sidebar-nav-item">
-                        <a class="c-sidebar-nav-link" href="#">Jumbotron</a>
+                        <router-link to="/components/base/jumbotrons" class="c-sidebar-nav-link">Jumbotron</router-link>
                     </li>
                     <li class="c-sidebar-nav-item">
                         <a class="c-sidebar-nav-link" href="#">List group</a>

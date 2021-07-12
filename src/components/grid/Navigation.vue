@@ -59,7 +59,7 @@
                         <router-link to="/components/base/list-groups" class="c-sidebar-nav-link">List groups</router-link>
                     </li>
                     <li class="c-sidebar-nav-item">
-                        <a class="c-sidebar-nav-link" href="#">Navs</a>
+                        <router-link to="/components/base/navs" class="c-sidebar-nav-link">Navs</router-link>
                     </li>
                     <li class="c-sidebar-nav-item">
                         <a class="c-sidebar-nav-link" href="#">Pagination</a>

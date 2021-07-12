@@ -138,7 +138,7 @@
                 </div>
             </div>
 
-            <div class="col-12 col-md-6">
+            <div class="col">
                 <div class="card">
                     <div class="card-header">
                         List group

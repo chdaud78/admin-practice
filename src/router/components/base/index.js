@@ -3,6 +3,7 @@ import Cards from "@/router/components/base/cards.js";
 import Carousel from "@/router/components/base/carousel.js";
 import Collapses from "@/router/components/base/collapses.js";
 import Jumbotrons from "@/router/components/base/jumbotrons.js";
+import ListGroups from "@/router/components/base/list-groups.js";
 
 const routes = [
     ...Breadcrumb,
@@ -10,6 +11,7 @@ const routes = [
     ...Carousel,
     ...Collapses,
     ...Jumbotrons,
+    ...ListGroups,
 ];
 
 export default routes;

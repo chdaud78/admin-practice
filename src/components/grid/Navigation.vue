@@ -56,7 +56,7 @@
                         <router-link to="/components/base/jumbotrons" class="c-sidebar-nav-link">Jumbotron</router-link>
                     </li>
                     <li class="c-sidebar-nav-item">
-                        <a class="c-sidebar-nav-link" href="#">List group</a>
+                        <router-link to="/components/base/list-groups" class="c-sidebar-nav-link">List groups</router-link>
                     </li>
                     <li class="c-sidebar-nav-item">
                         <a class="c-sidebar-nav-link" href="#">Navs</a>

@@ -76,9 +76,6 @@
                     <li class="c-sidebar-nav-item">
                         <router-link to="/components/base/tabs" class="c-sidebar-nav-link" href="#">Tabs</router-link>
                     </li>
-                    <li class="c-sidebar-nav-item">
-                        <router-link to="/components/base/tooltips" class="c-sidebar-nav-link" href="#">Tooltips</router-link>
-                    </li>
                 </ul>
             </li>
             <li class="c-sidebar-nav-dropdown">
@@ -88,16 +85,16 @@
                 </a>
                 <ul class="c-sidebar-nav-dropdown-items">
                     <li class="c-sidebar-nav-item">
-                        <a class="c-sidebar-nav-link" href="#">Buttons</a>
+                        <router-link to="/components/buttons/buttons" class="c-sidebar-nav-link">Buttons</router-link>
                     </li>
                     <li class="c-sidebar-nav-item">
-                        <a class="c-sidebar-nav-link" href="#">Brand Buttons</a>
+                        <router-link to="/components/buttons/brand-buttons" class="c-sidebar-nav-link">Brand Buttons</router-link>
                     </li>
                     <li class="c-sidebar-nav-item">
-                        <a class="c-sidebar-nav-link" href="#">Buttons Group</a>
+                        <router-link to="/components/buttons/buttons-group" class="c-sidebar-nav-link">Buttons Group</router-link>
                     </li>
                     <li class="c-sidebar-nav-item">
-                        <a class="c-sidebar-nav-link" href="#">Dropdowns</a>
+                        <router-link to="/components/buttons/dropdowns" class="c-sidebar-nav-link">Dropdowns</router-link>
                     </li>
                     <li class="c-sidebar-nav-item">
                         <a class="c-sidebar-nav-link" href="#">

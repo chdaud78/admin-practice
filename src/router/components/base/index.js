@@ -9,6 +9,7 @@ import Paginations from "@/router/components/base/paginations.js";
 import Progress from "@/router/components/base/progress.js";
 import Scrollspy from "@/router/components/base/scrollspy.js";
 import Switches from "@/router/components/base/switches.js";
+import Tabs from "@/router/components/base/tabs.js";
 
 const routes = [
     ...Breadcrumb,
@@ -22,6 +23,7 @@ const routes = [
     ...Progress,
     ...Scrollspy,
     ...Switches,
+    ...Tabs,
 ];
 
 export default routes;

@@ -249,6 +249,7 @@ export default {
             document.querySelectorAll('.user-color-change').forEach(x => {
                 random = Math.floor(Math.random() * (100 - 1) + 1);
                 x.style.width = random + '%';
+                x.innerText = random + "%";
             })
         }
     },

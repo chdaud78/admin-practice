@@ -7,6 +7,7 @@ import ListGroups from "@/router/components/base/list-groups.js";
 import Navs from "@/router/components/base/navs.js";
 import Paginations from "@/router/components/base/paginations.js";
 import Progress from "@/router/components/base/progress.js";
+import Scrollspy from "@/router/components/base/scrollspy.js";
 
 const routes = [
     ...Breadcrumb,
@@ -18,6 +19,7 @@ const routes = [
     ...Navs,
     ...Paginations,
     ...Progress,
+    ...Scrollspy,
 ];
 
 export default routes;

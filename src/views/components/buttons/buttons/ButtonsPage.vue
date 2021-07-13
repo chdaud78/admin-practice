@@ -40,7 +40,7 @@
                         <button class="btn bnt-block btn-warning btn-square btn-sm">square Butttons</button>
                     </div>
                     <div class="col-6 col-sm-4 col-md mb-3 mb-xl-0 text-center">
-                        <button class="btn bnt-block btn-warning btn-pill btn-sm">Pill Butttons</button>
+                        <button class="btn bnt-block btn-danger btn-pill btn-sm">Pill Butttons</button>
                     </div>
                 </div>
 
@@ -59,7 +59,7 @@
                         <button class="btn bnt-block btn-warning btn-square">square Butttons</button>
                     </div>
                     <div class="col-6 col-sm-4 col-md mb-3 mb-xl-0 text-center">
-                        <button class="btn bnt-block btn-warning btn-pill">Pill Butttons</button>
+                        <button class="btn bnt-block btn-danger btn-pill">Pill Butttons</button>
                     </div>
                 </div>
 
@@ -78,7 +78,7 @@
                         <button class="btn bnt-block btn-warning btn-square btn-lg">square Butttons</button>
                     </div>
                     <div class="col-6 col-sm-4 col-md mb-3 mb-xl-0 text-center">
-                        <button class="btn bnt-block btn-warning btn-pill btn-lg">Pill Butttons</button>
+                        <button class="btn bnt-block btn-danger btn-pill btn-lg">Pill Butttons</button>
                     </div>
                 </div>
             </div>
@@ -113,7 +113,7 @@
                         </button>
                     </div>
                     <div class="col-6 col-sm-4 col-md mb-3 mb-xl-0 text-center">
-                        <button class="btn bnt-block btn-warning btn-pill">
+                        <button class="btn bnt-block btn-danger btn-pill">
                             <i class="c-icon cil-lightbulb"></i>
                             Pill Butttons
                         </button>

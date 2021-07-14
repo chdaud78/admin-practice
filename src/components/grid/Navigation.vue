@@ -147,7 +147,7 @@
                 </a>
                 <ul class="c-sidebar-nav-dropdown-items">
                     <li class="c-sidebar-nav-item">
-                        <a class="c-sidebar-nav-link" href="#">Basic Forms</a>
+                        <router-link to="/components/forms" class="c-sidebar-nav-link">Basic Forms</router-link>
                     </li>
                     <li class="c-sidebar-nav-item">
                         <a class="c-sidebar-nav-link" href="#">

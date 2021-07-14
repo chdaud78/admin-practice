@@ -106,10 +106,10 @@
                 </ul>
             </li>
             <li class="c-sidebar-nav-item">
-                <a class="c-sidebar-nav-link" href="#">
+                <router-link to="/components/charts" class="c-sidebar-nav-link" >
                     <i class="c-sidebar-nav-icon cil-chart-pie"></i>
                     Charts
-                </a>
+                </router-link>
             </li>
             <li class="c-sidebar-nav-dropdown">
                 <a class="c-sidebar-nav-dropdown-toggle" href="#">

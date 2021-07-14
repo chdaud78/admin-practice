@@ -67,7 +67,7 @@
                     <button class="btn btn-light">Middle</button>
                     <button class="btn btn-light">Right</button>
                     <div class="btn-group" role="group">
-                        <button class="btn btn-light dropdown-toggle" id="btnGroupDrop" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <button class="btn btn-light dropdown-toggle" id="btnGroupDrop1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Dropdown
                         </button>
                         <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
@@ -86,10 +86,10 @@
                     <button class="btn btn-light">Middle</button>
                     <button class="btn btn-light">Right</button>
                     <div class="btn-group" role="group">
-                        <button class="btn btn-light dropdown-toggle" id="btnGroupDrop" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <button class="btn btn-light dropdown-toggle" id="btnGroupDrop2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Dropdown
                         </button>
-                        <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                        <div class="dropdown-menu" aria-labelledby="btnGroupDrop2">
                             <a href="#" class="dropdown-item">Dropdown Link</a>
                             <a href="#" class="dropdown-item">Dropdown Link</a>
                         </div>

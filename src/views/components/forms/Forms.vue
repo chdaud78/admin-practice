@@ -298,10 +298,670 @@
                 </div>
             </div>
 
+            <div class="col-6">
+                <div class="card">
+                    <div class="card-header">Horizontal <small class="text-muted">Form</small></div>
+                    <div class="card-body">
+                        <form class="form">
+                            <div class="form-group row">
+                                <label for="email2" class="col-sm-3 col-form-label">Email</label>
+                                <div class="col-sm-9">
+                                    <input type="text" id="email2" class="form-control" placeholder="Enter Email..">
+                                    <div>Please enter your email</div>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="password2" class="col-sm-3 col-form-label">Password</label>
+                                <div class="col-sm-9">
+                                    <input type="password" id="password2" class="form-control"
+                                           placeholder="Enter Password..">
+                                    <div>Please enter your password</div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="card-footer">
+                        <div class="btn-zone">
+                            <button class="btn btn-info btn-sm mr-3">Submit</button>
+                            <button class="btn btn-danger btn-sm">Reset</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">Normal <small class="text-muted">Form</small></div>
+                    <div class="card-body">
+                        <div class="form-group">
+                            <label for="email3">Email</label>
+                            <input type="text" id="email3" class="form-control" placeholder="Enter your email">
+                            <div>Please enter your email</div>
+                        </div>
+                        <div class="form-group">
+                            <label for="password3">Password</label>
+                            <input type="text" id="password3" class="form-control" placeholder="Enter your password">
+                            <div>Please enter your Password</div>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <div class="btn-zone">
+                            <button class="btn btn-info btn-sm mr-3">Submit</button>
+                            <button class="btn btn-danger btn-sm">Reset</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">Input <small class="text-muted">Grid</small></div>
+                    <div class="card-body">
+                        <form action="">
+                            <div class="form-group">
+                                <div class="col-sm-3">
+                                    <input type="text" class="form-control" placeholder="col-sm-3">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-4">
+                                    <input type="text" class="form-control" placeholder="col-sm-4">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-5">
+                                    <input type="text" class="form-control" placeholder="col-sm-5">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-6">
+                                    <input type="text" class="form-control" placeholder="col-sm-6">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-7">
+                                    <input type="text" class="form-control" placeholder="col-sm-7">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-8">
+                                    <input type="text" class="form-control" placeholder="col-sm-8">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-9">
+                                    <input type="text" class="form-control" placeholder="col-sm-9">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" placeholder="col-sm-10">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-11">
+                                    <input type="text" class="form-control" placeholder="col-sm-11">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-12">
+                                    <input type="text" class="form-control" placeholder="col-sm-12">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">Input <small class="text-muted">Sizes</small></div>
+                    <div class="card-body">
+                        <form action="">
+                            <div class="form-group row">
+                                <label for="small" class="col-sm-3 col-form-label col-form-label-sm">Small Input</label>
+                                <div class="col-sm-9">
+                                    <input type="text" id="small" class="form-control form-control-sm">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="normal" class="col-sm-3 col-form-label">Normal Input</label>
+                                <div class="col-sm-9">
+                                    <input type="text" id="normal" class="form-control">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="large" class="col-sm-3 col-form-label col-form-label-lg">Large Input</label>
+                                <div class="col-sm-9">
+                                    <input type="text" id="large" class="form-control form-control-lg">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6">
+                <div class="card">
+                    <div class="card-header">Validation states <small class="text-muted">Form</small></div>
+                    <form action="">
+                        <div class="card-body">
+                            <div class="form-group">
+                                <label for="valid_success">Input with success</label>
+                                <input type="text" id="valid_success" class="form-control is-valid">
+                            </div>
+                            <div class="form-group">
+                                <label for="valid_fail">Input with error</label>
+                                <input type="text" id="valid_fail" class="form-control" required
+                                       @change="validationCheck">
+                                <div class="invalid-feedback">Please provide a valid informations.</div>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <div class="btn-zone">
+                                <button class="btn btn-primary btn-sm" @click="validationCheck">Submit</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="card">
+                    <div class="card-header">Inline Form</div>
+                    <div class="card-body">
+                        <form action="" class="form-inline">
+                            <div class="form-group mr-5">
+                                <label for="name2" class="mr-3">Name</label>
+                                <input type="text" id="name2" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label for="email4" class="mr-3">Email</label>
+                                <input type="text" id="email4" class="form-control">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="card">
+                            <div class="card-header">Icon/Texts <small class="text-muted">Groups</small></div>
+                            <form action="">
+                                <div class="card-body">
+                                    <div class="form-group">
+                                        <div class="input-group">
+                                            <div class="input-group-prepend">
+                                                <div class="input-group-text">
+                                                    <i class="c-icon cil-user"></i>
+                                                </div>
+                                            </div>
+                                            <input type="text" class="form-control" placeholder="Username">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="input-group">
+                                            <input type="text" class="form-control" placeholder="Email">
+                                            <div class="input-group-append">
+                                                <div class="input-group-text">
+                                                    <i class="c-icon cil-envelope-open"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="input-group">
+                                            <div class="input-group-prepend">
+                                                <div class="input-group-text">
+                                                    $
+                                                </div>
+                                            </div>
+                                            <input type="text" class="form-control" placeholder="..">
+                                            <div class="input-group-append">
+                                                <div class="input-group-text">
+                                                    .00
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <div class="btn-zone">
+                                        <button class="btn btn-success btn-sm mr-3">Submit</button>
+                                        <button class="btn btn-danger btn-sm">Reset</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4">
+                        <div class="card">
+                            <div class="card-header">Buttons <small class="text-muted">Groups</small></div>
+                            <form action="">
+                                <div class="card-body">
+                                    <div class="form-group">
+                                        <div class="input-group">
+                                            <div class="input-group-prepend">
+                                                <button class="btn btn-info">
+                                                    <i class="c-icon cil-search"></i>
+                                                    Search
+                                                </button>
+                                            </div>
+                                            <input type="text" class="form-control" placeholder="Username">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="input-group">
+                                            <input type="text" class="form-control" placeholder="Email">
+                                            <div class="input-group-append">
+                                                <button class="btn btn-info">
+                                                    submit
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="input-group">
+                                            <div class="input-group-prepend">
+                                                <button class="btn btn-info">
+                                                    <i class="c-icon cil-search"></i>
+                                                </button>
+                                            </div>
+                                            <input type="text" class="form-control" placeholder="Search">
+                                            <div class="input-group-append">
+                                                <button class="btn btn-info">
+                                                    search
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <div class="btn-zone">
+                                        <button class="btn btn-success btn-sm mr-3">Submit</button>
+                                        <button class="btn btn-danger btn-sm">Reset</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4">
+                        <div class="card">
+                            <div class="card-header">Dropdowns <small class="text-muted">Groups</small></div>
+                            <form action="">
+                                <div class="card-body">
+                                    <div class="form-group">
+                                        <div class="input-group">
+                                            <div class="input-group-prepend">
+                                                <div class="btn-group" role="group">
+                                                    <button class="btn btn-info dropdown-toggle" data-toggle="dropdown"
+                                                            aria-haspopup="true" aria-expanded="false">
+                                                        Action
+                                                    </button>
+                                                    <div class="dropdown-menu">
+                                                        <a href="#" class="dropdown-item">Action 1</a>
+                                                        <a href="#" class="dropdown-item">Action 2</a>
+                                                        <a href="#" class="dropdown-item">Action 3</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <input type="text" class="form-control" placeholder="Username">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="input-group">
+                                            <input type="text" class="form-control" placeholder="Email">
+                                            <div class="input-group-append">
+                                                <div class="btn-group" role="group">
+                                                    <button class="btn btn-info dropdown-toggle" data-toggle="dropdown"
+                                                            aria-haspopup="true" aria-expanded="false">
+                                                        Email
+                                                    </button>
+                                                    <div class="dropdown-menu">
+                                                        <a href="#" class="dropdown-item">Email 1</a>
+                                                        <a href="#" class="dropdown-item">Email 2</a>
+                                                        <a href="#" class="dropdown-item">Email 3</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="input-group">
+                                            <div class="input-group-prepend">
+                                                <div class="btn-group" role="group">
+                                                    <button class="btn btn-info dropdown-toggle" data-toggle="dropdown"
+                                                            aria-haspopup="true" aria-expanded="false">
+                                                        Action
+                                                    </button>
+                                                    <div class="dropdown-menu">
+                                                        <a href="#" class="dropdown-item">Action 1</a>
+                                                        <a href="#" class="dropdown-item">Action 2</a>
+                                                        <a href="#" class="dropdown-item">Action 3</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <input type="text" class="form-control" placeholder="...">
+                                            <div class="input-group-append">
+                                                <div class="btn-group" role="group">
+                                                    <button class="btn btn-info dropdown-toggle" data-toggle="dropdown"
+                                                            aria-haspopup="true" aria-expanded="false">
+                                                        Email
+                                                    </button>
+                                                    <div class="dropdown-menu">
+                                                        <a href="#" class="dropdown-item">Email 1</a>
+                                                        <a href="#" class="dropdown-item">Email 2</a>
+                                                        <a href="#" class="dropdown-item">Email 3</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <div class="btn-zone">
+                                        <button class="btn btn-success btn-sm mr-3">Submit</button>
+                                        <button class="btn btn-danger btn-sm">Reset</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6">
+                <div class="card">
+                    <div class="card-header">Use the grid for big devices</div>
+                    <form action="">
+                        <div class="card-body">
+                            <div class="form-group row">
+                                <div class="col-md-8"><input type="text" class="form-control" placeholder=".col-md-8">
+                                </div>
+                                <div class="col-md-4"><input type="text" class="form-control" placeholder=".col-md-4">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <div class="col-md-7"><input type="text" class="form-control" placeholder=".col-md-7">
+                                </div>
+                                <div class="col-md-5"><input type="text" class="form-control" placeholder=".col-md-5">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <div class="col-md-6"><input type="text" class="form-control" placeholder=".col-md-6">
+                                </div>
+                                <div class="col-md-6"><input type="text" class="form-control" placeholder=".col-md-6">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <div class="col-md-5"><input type="text" class="form-control" placeholder=".col-md-5">
+                                </div>
+                                <div class="col-md-7"><input type="text" class="form-control" placeholder=".col-md-7">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <div class="col-md-4"><input type="text" class="form-control" placeholder=".col-md-4">
+                                </div>
+                                <div class="col-md-8"><input type="text" class="form-control" placeholder=".col-md-8">
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="col-sm-6">
+                <div class="card">
+                    <div class="card-header">Use the grid for small devices</div>
+                    <form action="">
+                        <div class="card-body">
+                            <div class="form-group row">
+                                <div class="col-8"><input type="text" class="form-control" placeholder=".col-8"></div>
+                                <div class="col-4"><input type="text" class="form-control" placeholder=".col-4"></div>
+                            </div>
+                            <div class="form-group row">
+                                <div class="col-7"><input type="text" class="form-control" placeholder=".col-7"></div>
+                                <div class="col-5"><input type="text" class="form-control" placeholder=".col-5"></div>
+                            </div>
+                            <div class="form-group row">
+                                <div class="col-6"><input type="text" class="form-control" placeholder=".col-6"></div>
+                                <div class="col-6"><input type="text" class="form-control" placeholder=".col-6"></div>
+                            </div>
+                            <div class="form-group row">
+                                <div class="col-5"><input type="text" class="form-control" placeholder=".col-5"></div>
+                                <div class="col-7"><input type="text" class="form-control" placeholder=".col-7"></div>
+                            </div>
+                            <div class="form-group row">
+                                <div class="col-4"><input type="text" class="form-control" placeholder=".col-4"></div>
+                                <div class="col-8"><input type="text" class="form-control" placeholder=".col-8"></div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="card-header">Example Form</div>
+                    <div class="card-body">
+                        <form action="">
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <div class="input-group-text">
+                                            Username
+                                        </div>
+                                    </div>
+                                    <input type="text" class="form-control">
+                                    <div class="input-group-append">
+                                        <div class="input-group-text">
+                                            <i class="c-icon cil-user"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <div class="input-group-text">
+                                            Email
+                                        </div>
+                                    </div>
+                                    <input type="text" class="form-control">
+                                    <div class="input-group-append">
+                                        <div class="input-group-text">
+                                            <i class="c-icon cil-envelope-open"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <div class="input-group-text">
+                                            Password
+                                        </div>
+                                    </div>
+                                    <input type="password" class="form-control">
+                                    <div class="input-group-append">
+                                        <div class="input-group-text">
+                                            <i class="c-icon cil-lock-locked"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="btn-zone">
+                                <button class="btn btn-info">Submit</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="card-header">Example Form</div>
+                    <div class="card-body">
+                        <form action="">
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="Username">
+                                    <div class="input-group-append">
+                                        <div class="input-group-text">
+                                            <i class="c-icon cil-user"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="Email">
+                                    <div class="input-group-append">
+                                        <div class="input-group-text">
+                                            <i class="c-icon cil-envelope-open"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <input type="password" class="form-control" placeholder="Password">
+                                    <div class="input-group-append">
+                                        <div class="input-group-text">
+                                            <i class="c-icon cil-lock-locked"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="btn-zone">
+                                <button class="btn btn-light">Submit</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="card-header">Example Form</div>
+                    <div class="card-body">
+                        <form action="">
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <div class="input-group-text">
+                                            <i class="c-icon cil-user"></i>
+                                        </div>
+                                    </div>
+                                    <input type="text" class="form-control" placeholder="Username">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <div class="input-group-text">
+                                            <i class="c-icon cil-envelope-open"></i>
+                                        </div>
+                                    </div>
+                                    <input type="text" class="form-control" placeholder="Email">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <div class="input-group-text">
+                                            <i class="c-icon cil-lock-locked"></i>
+                                        </div>
+                                    </div>
+                                    <input type="password" class="form-control" placeholder="Password">
+                                </div>
+                            </div>
+                            <div class="btn-zone">
+                                <button class="btn btn-success">Submit</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card">
+                    <div class="card-header">Form Elements</div>
+                    <div class="card-body">
+                        <form action="">
+                            <div class="form-group">
+                                <label for="">Prepended text</label>
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <div class="input-group-text">@</div>
+                                    </div>
+                                    <input type="text" class="form-control">
+                                </div>
+                                <div>Here's some help text</div>
+                            </div>
+                            <div class="form-group">
+                                <label for="">Appended text</label>
+                                <div class="input-group">
+                                    <input type="text" class="form-control">
+                                    <div class="input-group-append">
+                                        <div class="input-group-text">.00</div>
+                                    </div>
+                                </div>
+                                <div>Here's some help text</div>
+                            </div>
+                            <div class="form-group">
+                                <label for="">Appended and Prepend</label>
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <div class="input-group-text">$</div>
+                                    </div>
+                                    <input type="text" class="form-control">
+                                    <div class="input-group-append">
+                                        <div class="input-group-text">.00</div>
+                                    </div>
+                                </div>
+                                <div>Here's some help text</div>
+                            </div>
+                            <div class="form-group">
+                                <label for="">Appended with button</label>
+                                <div class="input-group">
+                                    <input type="text" class="form-control">
+                                    <div class="input-group-append">
+                                        <button class="btn btn-secondary">Go!</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="">Two-button append</label>
+                                <div class="input-group">
+                                    <input type="text" class="form-control">
+                                    <div class="input-group-append">
+                                        <div class="btn-group" role="group">
+                                            <button class="btn btn-secondary">Search</button>
+                                            <button class="btn btn-secondary">Option</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="btn-zone">
+                                <button class="btn btn-info mr-3">Save changes</button>
+                                <button class="btn btn-light">Cancel</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
 </template>
 
 <script>
-
+export default {
+    name: "FormsPage",
+    methods: {
+        validationCheck() {
+            let check = document.getElementById('valid_fail').value;
+            if (check == "") {
+                document.getElementById('valid_fail').classList.add('is-invalid');
+            } else {
+                document.getElementById('valid_fail').classList.remove('is-invalid');
+            }
+        }
+    }
+}
 </script>

@@ -208,7 +208,7 @@
                 </a>
                 <ul class="c-sidebar-nav-dropdown-items">
                     <li class="c-sidebar-nav-item">
-                        <a class="c-sidebar-nav-link" href="#">Alerts</a>
+                        <router-link to="/components/notifications/alerts" class="c-sidebar-nav-link" href="#">Alerts</router-link>
                     </li>
                     <li class="c-sidebar-nav-item">
                         <a class="c-sidebar-nav-link" href="#">Badge</a>

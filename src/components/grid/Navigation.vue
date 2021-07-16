@@ -278,11 +278,11 @@
                 </ul>
             </li>
             <li class="c-sidebar-nav-item">
-                <a class="c-sidebar-nav-link" href="#">
+                <router-link to="/components/widgets" class="c-sidebar-nav-link">
                     <i class="c-sidebar-nav-icon cil-calculator"></i>
                     Widgets
                     <span class="badge badge-info">New</span>
-                </a>
+                </router-link>
             </li>
 
             <!-- EXTRAS -->

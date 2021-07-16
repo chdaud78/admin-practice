@@ -208,13 +208,13 @@
                 </a>
                 <ul class="c-sidebar-nav-dropdown-items">
                     <li class="c-sidebar-nav-item">
-                        <router-link to="/components/notifications/alerts" class="c-sidebar-nav-link" href="#">Alerts</router-link>
+                        <router-link to="/components/notifications/alerts" class="c-sidebar-nav-link">Alerts</router-link>
                     </li>
                     <li class="c-sidebar-nav-item">
-                        <a class="c-sidebar-nav-link" href="#">Badge</a>
+                        <router-link to="/components/notifications/badge" class="c-sidebar-nav-link">Badge</router-link>
                     </li>
                     <li class="c-sidebar-nav-item">
-                        <a class="c-sidebar-nav-link" href="#">Modals</a>
+                        <router-link to="/components/notifications/modals" class="c-sidebar-nav-link">Modals</router-link>
                     </li>
                     <li class="c-sidebar-nav-item">
                         <a class="c-sidebar-nav-link" href="#">

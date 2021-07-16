@@ -3,6 +3,7 @@ import Buttons from "@/router/components/buttons/index.js";
 import Charts from "@/router/components/charts/index.js";
 import Forms from "@/router/components/forms/index.js";
 import Notifications from "@/router/components/notifications/index.js";
+import Tables from "@/router/components/tables/index.js";
 
 const routes = [
     ...Base,
@@ -10,6 +11,7 @@ const routes = [
     ...Charts,
     ...Forms,
     ...Notifications,
+    ...Tables,
 ];
 
 export default routes;

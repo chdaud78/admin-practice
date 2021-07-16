@@ -267,7 +267,7 @@
                 </a>
                 <ul class="c-sidebar-nav-dropdown-items">
                     <li class="c-sidebar-nav-item">
-                        <a class="c-sidebar-nav-link" href="#">Standard Tables</a>
+                        <router-link to="/components/tables/tables" class="c-sidebar-nav-link">Standard Tables</router-link>
                     </li>
                     <li class="c-sidebar-nav-item">
                         <a class="c-sidebar-nav-link" href="#">

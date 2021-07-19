@@ -5,6 +5,7 @@
             <widget-progress-card></widget-progress-card>
             <widget-simple-graph-card></widget-simple-graph-card>
             <widget-icon-card></widget-icon-card>
+            <widget-sns-card></widget-sns-card>
         </div>
     </div>
 </template>
@@ -14,6 +15,7 @@ import WidgetSimpleGraphCard from "@/views/components/widgets/WidgetSimpleGraphC
 import WidgetGraphCard from "@/views/components/widgets/WidgetGraphCard.vue";
 import WidgetProgressCard from "@/views/components/widgets/WidgetProgressCard.vue";
 import WidgetIconCard from "@/views/components/widgets/WidgetIconCard.vue";
+import WidgetSnsCard from "@/views/components/widgets/WidgetSnsCard.vue";
 
 export default {
     name: "WidgetsPage",
@@ -22,6 +24,7 @@ export default {
         WidgetProgressCard,
         WidgetSimpleGraphCard,
         WidgetIconCard,
+        WidgetSnsCard
     }
 }
 </script>

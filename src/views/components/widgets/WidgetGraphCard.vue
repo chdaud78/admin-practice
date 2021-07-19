@@ -5,7 +5,7 @@
                 <div class="card-body d-flex justify-content-between align-items-start">
                     <div class="card-text">
                         <div class="text-value-lg">9.823</div>
-                        <small>members online</small>
+                        <div>members online</div>
                     </div>
                     <div class="btn-group">
                         <div class="btn btn-transparent dropdown-toggle p-0" data-toggle="dropdown"
@@ -33,7 +33,7 @@
 import Vue3ChartJs from '@j-t-mcc/vue3-chartjs'
 
 export default {
-    name: "WidgetsCard",
+    name: "WidgetGraphCard",
     components: {
         Vue3ChartJs,
     },

@@ -3,6 +3,7 @@
 ## Site
 https://chdaud78.github.io/admin-practice/
 <br>Clone CoreUI Admin Demo Page
+<br>https://coreui.io/demo/3.4.0/legacy/widgets.html
 
 ## Purpose
 1. Practice Bootstrap frame for vue
